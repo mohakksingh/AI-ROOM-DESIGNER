@@ -60,11 +60,8 @@ function CreateNew() {
       });
 
     if (result) {
-      setUserDetail((prev) => ({
-        ...prev,
-        credit: userDetail?.credit + selectedOption?.credits,
-      }));
-      return result[0].id;
+      setUserDetail(userDetail?.credit-1);
+      return result[0].id;  
     }
   };
 
