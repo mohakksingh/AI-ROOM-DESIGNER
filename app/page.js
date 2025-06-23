@@ -5,6 +5,7 @@ import Navbar from "@/components/Navbar";
 import { useUser } from "@clerk/nextjs";
 import Hero from "@/components/Hero";
 import Features from "@/components/Features";
+import Process from "@/components/Process";
 
 export default function Home() {
 
@@ -14,6 +15,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Features />
+      <Process />
     </div>
   );
 }

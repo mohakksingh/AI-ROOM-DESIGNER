@@ -12,7 +12,7 @@ function Features() {
       <Image src="/aigenerated.png" alt="mistake" width={300} height={10} className="rounded-lg"/>
       </div>
       <span className="text-3xl px-40 text-center">
-        Now You can create stunning interiors effortlessly with our AI Room Redesign Tool.
+        We Turn your Ideas into Reality 
       </span>
     </div>
   );
