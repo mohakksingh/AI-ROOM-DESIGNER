@@ -28,7 +28,9 @@ function AiOutputDialog({ openDialog, closeDialog, orgImage, aiImage }) {
               imageUrl: orgImage,
             }}
           />
-          <Button className="cursor-pointer" onClick={() => closeDialog(false)}>
+          <Button className="cursor-pointer" onClick={() => 
+            
+            closeDialog(false)}>
             Close
           </Button>
         </AlertDialogHeader>
