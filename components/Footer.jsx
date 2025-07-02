@@ -56,7 +56,7 @@ function Footer() {
 
   const footerLinks = {
     product: [
-      { name: "AI Room Designer", href: "/designer", icon: Layout },
+      { name: "ReRoom.AI", href: "/designer", icon: Layout },
       { name: "Style Gallery", href: "/gallery", icon: Star },
       { name: "Before & After", href: "/showcase", icon: Home },
       { name: "Pricing Plans", href: "/pricing", icon: CreditCard },
@@ -233,7 +233,7 @@ function Footer() {
                     }}
                   />
                 </div>
-                <h2 className="text-2xl font-bold">AI ROOM REDESIGN</h2>
+                <h2 className="text-2xl font-bold">ReRoom.AI</h2>
               </div>
 
               <p className="text-white/80 mb-6 leading-relaxed">
@@ -293,7 +293,7 @@ function Footer() {
           <div className="max-w-7xl mx-auto px-4 py-6">
             <div className="flex flex-col md:flex-row justify-between items-center gap-4">
               <div className="flex items-center gap-2 text-sm text-white/80">
-                <span>© 2025 AI Room Redesign.</span>
+                <span>© 2025 ReRoom.AI.</span>
                 <span>Designed and Developed with</span>
                 <Heart className="w-4 h-4 text-red-400 fill-current animate-pulse" />
                 <span>for the Community.</span>

@@ -106,7 +106,7 @@ function Navbar() {
               </div>
               <div className="hidden sm:block">
                 <h1 className="text-lg font-bold bg-gradient-to-r from-foreground to-foreground/80 bg-clip-text text-transparent">
-                  AI ROOM REDESIGN
+                  ReRoom.AI
                 </h1>
               </div>
             </Link>
