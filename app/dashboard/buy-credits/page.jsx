@@ -13,23 +13,23 @@ function BuyCredits() {
   const creditOptions = [
     {
       credits: 5,
-      amount: 0.99,
+      amount: 19,
     },
     {
       credits: 10,
-      amount: 1.99,
+      amount:49,
     },
     {
       credits: 25,
-      amount: 3.99,
+      amount: 149,
     },
     {
       credits: 50,
-      amount: 6.99,
+      amount: 259,
     },
     {
       credits: 100,
-      amount: 9.99,
+      amount: 499,
     },
   ];
 
@@ -79,7 +79,7 @@ function BuyCredits() {
             >
               Select
             </Button>
-            <h2 className="font-medium text-primary">${item.amount}</h2>
+            <h2 className="font-medium text-primary">₹{item.amount}</h2>
           </div>
         ))}
       </div>
@@ -93,7 +93,7 @@ function BuyCredits() {
                          purchase_units:[{
                             amount:{
                                 value:selectedOption?.amount?.toFixed(2),
-                                currency_code:"USD"
+                                currency_code:"INR"
                             }
                          }]
                     })

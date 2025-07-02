@@ -10,10 +10,12 @@ function Header() {
   const { userDetail, setUserDetail } = useContext(UserDetailContext);
   return (
     <div className="p-5 shadow-sm flex justify-between items-center">
-      <div className="flex gap-2 items-center">
-        <Image src={"/logo.svg"} alt="logo" width={40} height={40} />
-        <h2 className="font-bold text-lg">Ai Room Design</h2>
-      </div>
+      <Link href="/dashboard">
+        <div className="flex gap-2 items-center">
+          <Image src={"/logo.svg"} alt="logo" width={40} height={40} />
+          <h2 className="font-bold text-lg">Ai Room Design</h2>
+        </div>
+      </Link>
       <Link href={"/dashboard/buy-credits"}>
         <Button variant="ghost" className="rounded-full text-primary">
           Buy More Credits
